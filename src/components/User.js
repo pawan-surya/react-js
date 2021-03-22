@@ -1,9 +1,13 @@
+import React from "react";
+import ReactDOM, { render } from "react-dom";
 
-const User = () => {
-    return (
-        <div className="container"> 
-          <h1>User!</h1>
-
-        </div>
-    )
+export class User extends React.Component {
+    render() {
+        return (
+            <div className="container"> 
+              <h1>User Page</h1>
+            </div>
+        )
+    }
+  
 }

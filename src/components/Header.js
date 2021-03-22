@@ -1,31 +1,36 @@
 import React from "react";
 
-
 //  with state component  with class and using state
 // export class Header extends React.Component {
 //   render() {
 //     return (
-//         <nav className="navbar navbar-light bg-light">
-//         <a className="navbar-brand" href="#">Header</a>
-//       </nav>
+//       <ul className="nav">
+//         <li className="nav-item">
+//           <a className="nav-link active" href="#">
+//             Home
+//           </a>
+//         </li>
+//         <li className="nav-item">
+//           <a className="nav-link" href="#">
+//             User
+//           </a>
+//         </li>
+//       </ul>
 //     );
 //   }
 // }
 
-
 // This is  stetelesss componenet  only with funtion
 
 export const Header = (props) => {
-    return (
-      <nav className="navbar navbar-default">
-        <div className="container">
-          <div className="navbar navbar-header"> 
-           <ul className="nav navbar-nav">
-             <li><a href="#">{props.homeLink}</a></li>
-           </ul>
-          </div>
-        </div>
-      </nav>
-    )
+  return (
+    <ul className="nav">
+  <li className="nav-item">
+    <a className="nav-link active" href="#">Home</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">User</a>
+  </li>
+</ul>
+  );
 };
-

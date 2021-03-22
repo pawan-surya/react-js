@@ -7,16 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build",
     "dev": "webpack serve --content-base src/ --inline --hot",
-    "build": "./node_modules/.bin/webpack  && webpack serve --content-base src/ --inline --hot",
+    "build": "./node_modules/.bin/webpack  && webpack serve --hot --history-api-fallback --content-base src/ --inline",
     "build:watch": "./node_modules/.bin/webpack --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "history": "^5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router": "^5.2.0"
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",

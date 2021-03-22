@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const Home = () => {
-  
-  return (
-    <div className="container">
-      <h1>Home!</h1>
-    </div>
-  )
-
+export class Home extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1><span>Home Page</span>
+        </h1>
+      </div>
+    )
+  }
 };
