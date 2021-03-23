@@ -17,6 +17,10 @@ color: white;
 .fixed-bottom  h1{
   text-align: center;
 }
+.fixed-bottom  p{
+ color: white;
+}
+
 
 /* Style the header with a grey background and some padding */
 .header {

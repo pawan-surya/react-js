@@ -5,7 +5,7 @@ export class Footer extends React.Component {
     return (
       <div>
         <div className="fixed-bottom">
-        <p>This is all about some thing @coywrite 2021</p>
+        <p>This is all about some thing   @coywrite 2021 </p>
           <h1>Footer</h1>
         </div>
       </div>
