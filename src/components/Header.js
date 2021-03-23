@@ -26,7 +26,7 @@ import { Link } from "react-router-dom";
 export const Header = (props) => {
   return (
 <div className="header">
-  <a href="#default" className="logo">Logo</a>
+  <a href="#default" className="logo">LoGo</a>
   <div className="header-right">
     <Link className="active" to="home">Home</Link>
     <Link style={{color: "red"}} to={"user"}>User</Link>
