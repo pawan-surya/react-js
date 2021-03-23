@@ -14,7 +14,6 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        
           <Route exact path="/" component={Root}></Route>
           <Route path="/home"><Home /></Route>
           <Route path="/user"><User /></Route>
