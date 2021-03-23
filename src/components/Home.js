@@ -1,13 +1,18 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 export class Home extends React.Component {
   render() {
     return (
-      <div>
-        <h1><span>Home Page</span>
+      <div className="container">
+        <Header />
+        <hr />
+        <h1>
+          <span>Welcome to the Home!</span>
         </h1>
+        <Footer />
       </div>
-    )
+    );
   }
-};
+}
