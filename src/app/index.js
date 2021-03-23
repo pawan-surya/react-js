@@ -21,7 +21,7 @@ class App extends React.Component {
           <Route path="/active_users"><ActiveUser/></Route>
           <Route path="/pending_users"><PendingUser/></Route>
           <Route path="/about"><About/></Route>
-          <Route path="/contact"><Contact/></Route>
+          <Route path="/conatct"><Contact/></Route>
         
       </Router>
     );
